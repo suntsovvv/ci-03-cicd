@@ -20,3 +20,7 @@ INFO: ------------------------------------------------------------------------
 ![image](https://github.com/suntsovvv/ci-03-cicd/assets/154943765/0c76681b-fba6-49ea-aeef-3e8612b0b0c2)
 ![image](https://github.com/suntsovvv/ci-03-cicd/assets/154943765/8f55ec47-69a9-4b6f-95b9-0a6a7d5c0b9d)
 
+## Знакомство с Nexus   
+![image](https://github.com/suntsovvv/ci-03-cicd/assets/154943765/024e1ad4-7de2-497f-88ae-0b7d32277d47)   
+
+## Знакомство с Maven   
