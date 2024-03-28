@@ -23,5 +23,20 @@ INFO: ------------------------------------------------------------------------
 ## Знакомство с Nexus   
 ![image](https://github.com/suntsovvv/ci-03-cicd/assets/154943765/f4fd0ab3-15b6-4b15-a576-a8da9d2164fe)
 
+https://github.com/suntsovvv/ci-03-cicd/blob/main/maven-metadata.xml   
 
 ## Знакомство с Maven   
+```bash
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: /home/user/home_work/cicd/ci-03-cicd/mvn/target/simple-app-1.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  18.008 s
+[INFO] Finished at: 2024-03-28T07:07:21Z
+[INFO] ------------------------------------------------------------------------
+```
+```bash
+user@study:~/.m2/repository/netology/java/8_282$ ls
+java-8_282-distrib.jar  java-8_282-distrib.jar.sha1  java-8_282.pom.lastUpdated  _remote.repositories
+```
