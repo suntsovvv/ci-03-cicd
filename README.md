@@ -40,3 +40,30 @@ https://github.com/suntsovvv/ci-03-cicd/blob/main/maven-metadata.xml
 user@study:~/.m2/repository/netology/java/8_282$ ls
 java-8_282-distrib.jar  java-8_282-distrib.jar.sha1  java-8_282.pom.lastUpdated  _remote.repositories
 ```
+pom.xml :   
+```xml
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+ 
+  <groupId>com.netology.app</groupId>
+  <artifactId>simple-app</artifactId>
+  <version>1.0-SNAPSHOT</version>
+   <repositories>
+    <repository>
+      <id>my-repo</id>
+      <name>maven-public</name>
+      <url>http://158.160.156.220:8081/repository/maven-public/</url>
+    </repository>
+  </repositories>
+  <dependencies>
+     <dependency>
+      <groupId>netology</groupId>
+      <artifactId>java</artifactId>
+      <version>8_282</version>
+      <classifier>distrib</classifier>
+      <type>jar</type>
+    </dependency> 
+  </dependencies>
+</project>
+```
